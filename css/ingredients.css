@@ -1,0 +1,19 @@
+.ingredients {}
+
+
+
+.ingredients-title {}
+
+
+.ingredients-list {}
+
+.ingredients-item {}
+
+.ingred-icon {}
+
+.ingredients-caption {
+    font-size: inherit;
+
+    font-weight: 600;
+    text-transform: uppercase;
+}

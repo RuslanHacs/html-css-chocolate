@@ -1,0 +1,24 @@
+.review {}
+
+
+.review-title {}
+
+.review-list {}
+
+.review-item {
+    background-color: #fff;
+}
+
+.review-avatar {}
+
+.review-author {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+}
+
+.review-caption {
+    text-align: center;
+    color: rgba(17, 17, 17, 0.7);
+}
