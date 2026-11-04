@@ -7,8 +7,20 @@ body {
     background-color: #fafafa;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
 ol,
 ul {
+    margin: 0;
+    padding: 0;
     list-style-type: none;
 }
 
@@ -21,12 +33,21 @@ address {
     font-style: normal;
 }
 
+img {
+    display: block;
+}
+
 button {
     cursor: pointer;
 }
 
 /*Base style*/
 .logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 4px;
 
     font-weight: 700;
     font-size: 18px;
@@ -36,11 +57,28 @@ button {
 
 }
 
+.sr-only {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+    margin: -1px;
+}
+
 .logo-icon {}
 
-.section {}
+.section {
+    padding-bottom: 60px;
+}
 
 .section-title {
+    max-width: 412px;
+    margin: 0 auto 50px;
 
     font-weight: 600;
     font-size: 24px;
@@ -55,14 +93,44 @@ button {
     color: #fd9222;
 }
 
+.container {
+    max-width: 1168px;
+    padding: 0 16px;
+    margin: 0 auto;
+
+    outline: 1px solid red;
+}
+
 
 /*Socials*/
 
-.socials {}
+.socials {
+    display: flex;
+    gap: 14px;
+}
 
-.socials-item {}
+.socials-item {
+    width: 40px;
+    height: 40px;
+}
 
-.socials-link {}
+.socials-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 10px;
+
+}
+
+.socials-link:hover,
+.socials-link:focus {
+    border: 1px solid rgba(253, 146, 34, 0.1);
+    border-radius: 10px;
+
+}
 
 .socials-icon {}
 
