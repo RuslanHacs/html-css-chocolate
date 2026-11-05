@@ -1,10 +1,32 @@
 .made {}
 
+
+
+
 .made-title {}
+
+.made-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.mede-left-side {
+    border-radius: 16px;
+    overflow: hidden;
+}
 
 .made-ills {}
 
+.made-rith-side {
+    border-radius: 15px;
+    padding: 32px;
+    width: 516px;
+    background-color: #fff;
+}
+
 .made-caption {
+    max-width: 350px;
+    margin-bottom: 28px;
 
     font-weight: 600;
     font-size: 18px;
@@ -14,4 +36,9 @@
 
 .made-list {}
 
+
 .made-item {}
+
+.made-item:not(:last-child) {
+    margin-bottom: 24px;
+}
