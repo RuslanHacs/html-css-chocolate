@@ -3,9 +3,14 @@
 }
 
 .hero-wrap {
-    background-color: rgba(17, 17, 17, 0.4);
     border-radius: 30px;
     padding: 380px 40px 40px;
+    background-color: rgba(17, 17, 17, 0.4);
+    background-image: url(../images/hero/hero-bg_desk@2x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
 }
 
 
