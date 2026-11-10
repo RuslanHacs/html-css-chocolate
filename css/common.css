@@ -125,6 +125,15 @@ button {
 
 }
 
+.socials-lithe {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.socials-lithe .socials-icon {
+    color: #fff;
+}
+
 .socials-link:hover,
 .socials-link:focus {
     border: 1px solid rgba(253, 146, 34, 0.6);
@@ -132,7 +141,16 @@ button {
 
 }
 
-.socials-icon {}
+.socials-icon {
+    color: #111;
+}
+
+
+
+.socials-link:hover .socials-icon,
+.socials-link:focus .socials-icon {
+    color: #fd9222;
+}
 
 /*button*/
 .btn {

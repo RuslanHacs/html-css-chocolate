@@ -6,7 +6,7 @@
     border-radius: 30px;
     padding: 380px 40px 40px;
     background-color: rgba(17, 17, 17, 0.4);
-    background-image: url(../images/hero/hero-bg_desk@2x.jpg);
+    background-image: linear-gradient(rgba(17, 17, 17, 0.2), rgba(17, 17, 17, 0.8)), url(../images/hero/hero-bg_desk@2x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -55,10 +55,18 @@
     background-color: #fd9222;
 }
 
+.hero-link:hover .hero-icon {
+    color: #fff;
+}
+
+
+
 .hero-controls {
     display: flex;
     align-items: center;
     gap: 14px;
 }
 
-.hero-icon {}
+.hero-icon {
+    color: #FD9222;
+}

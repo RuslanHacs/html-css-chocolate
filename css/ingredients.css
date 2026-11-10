@@ -14,11 +14,13 @@
 }
 
 .ingredients-item {
+    position: relative;
     width: calc((100% - 32px * 3) / 4);
     border-radius: 15px;
     padding: 28px 24px;
 
 }
+
 
 /*cтруктурні псевдокласи + формула підрахунку a * b + n */
 .ingredients-item:nth-child(2n) {
@@ -36,7 +38,31 @@
     color: #fff;
 }
 
-.ingred-icon {
+.ingredients-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.ingredients-icon {}
+
+.ingredients-item:nth-child(2n) .ingredients-icon {
+    color: #fd9222;
+}
+
+.ingredients-item:nth-child(2n + 1) .ingredients-icon {
+    color: #fafafa;
+
+}
+
+
+.ingred-ills {
     margin-bottom: 36px;
 }
 
