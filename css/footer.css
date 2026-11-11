@@ -48,6 +48,8 @@
 
 .contact-link {
     color: #fff;
+    transition: 300ms ease-out;
+    transition-property: color;
 }
 
 .contact-link:hover,
@@ -74,6 +76,8 @@
     font-weight: 500;
 
     color: #fff;
+    transition: 300ms ease-out;
+    transition-property: color;
 }
 
 .footer-menu-link:hover,

@@ -98,7 +98,7 @@ button {
     padding: 0 16px;
     margin: 0 auto;
 
-    outline: 1px solid red;
+    /* outline: 1px solid red;*/
 }
 
 
@@ -122,6 +122,8 @@ button {
     height: 100%;
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 10px;
+    transition: 300ms ease-out;
+    transition-property: color border-color;
 
 }
 
@@ -136,7 +138,8 @@ button {
 
 .socials-link:hover,
 .socials-link:focus {
-    border: 1px solid rgba(253, 146, 34, 0.6);
+    border: 1px solid;
+    border-color: rgba(253, 146, 34, 0.6);
     border-radius: 10px;
 
 }
@@ -159,18 +162,19 @@ button {
     font-weight: 600;
     background-color: transparent;
     border: 1px solid transparent;
-
+    transition: 300ms ease-out;
+    transition-property: background-color color border-color;
 }
 
 .btn-filled {
     color: #fff;
-    background: #fd9222;
+    background-color: #fd9222;
 }
 
 .btn-filled:hover,
 .btn-filled:focus {
     color: #fd9222;
-    background: rgba(253, 146, 34, 0.1);
+    background-color: rgba(253, 146, 34, 0.1);
 
 }
 
@@ -195,6 +199,6 @@ button {
 
 .secondary:hover,
 .secondary:focus {
-    background: #fd9222;
+    background-color: #fd9222;
     color: #fff;
 }
